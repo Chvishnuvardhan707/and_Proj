@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IOTSmartHome</string>
+    <string name="title_activity_living__room">Living_Room</string>
+    <string name="title_activity_kitchen">Kitchen</string>
+    <string name="title_activity_bed">Bed</string>
+    <string name="title_activity_dining">Dining</string>
+</resources>

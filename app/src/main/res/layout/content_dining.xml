@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Dining"
+    tools:showIn="@layout/activity_dining">
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:id="@+id/nuller"
+        />
+    <TextView
+        android:id="@+id/tube_light"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Tube Light"
+        android:layout_below="@id/livingg"
+        android:paddingLeft="50dp"
+        android:paddingTop="50dp" />
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/livingg"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/tube_light"
+        android:paddingTop="50dp" />
+    <TextView
+        android:id="@+id/livingg"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:text="Dining Room"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_below="@+id/nuller"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Fan"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <Button
+        android:id="@+id/home"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="236dp"
+        android:onClick="home"
+        android:text="Home"
+        android:layout_toRightOf="@id/savedining"
+        android:layout_below="@+id/switch3"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp" />
+
+
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch1"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/tube_light"
+        android:paddingTop="15dp"
+        />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch2"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/tube_light"
+        android:paddingTop="15dp"
+ />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Light"
+        android:layout_below="@id/tube_light"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        />
+    <Button
+        android:id="@+id/savedining"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="236dp"
+        android:onClick="savedining"
+        android:text="SAVE"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp" />
+</RelativeLayout>
